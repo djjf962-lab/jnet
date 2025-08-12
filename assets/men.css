@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(127, 255, 212, 0.539);
+}
+.ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+.ul li{
+        margin-right: 10px; 
+        display: inline-flex; 
+        margin-bottom: 10px;   
+
+}
+
+.ul li a {   
+    text-decoration: none; 
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    padding: 10px; 
+    border: 1px solid ; 
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.ul li a:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.form input {
+    padding: 10px 10px;
+    margin: 0;
+
+}
+
+.submit {
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.p{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.sub{
+    display: flex;
+}
+.sub input{
+    margin-right: 5px; 
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
